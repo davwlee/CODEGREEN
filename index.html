@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Code Green Helper</h1>
+    <h2>
+      Enter the information in the boxes below and hit "add", this will display
+      the information in an easy to copy/paste format and will tell you WHEN the
+      study will turn CODE GREEN.
+    </h2>
+    <div id="inputForm">
+      <input type="text" id="institution" placeholder="Institution" />
+      <input type="datetime-local" id="datetime" />
+      <input type="text" id="description" placeholder="Study Description" />
+      <input type="text" id="name" placeholder="Name" />
+      <button onclick="addStudy()">Add</button>
+    </div>
+
+    <div id="output">
+      <!-- Formatted data will be populated here -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

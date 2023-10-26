@@ -1,0 +1,13 @@
+#inputForm input, #inputForm button {
+    margin: 5px;
+    text-align: center;
+}
+#output .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#header {
+    text-align: center;
+}
