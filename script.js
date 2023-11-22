@@ -6,7 +6,7 @@ function addStudy() {
 
     var formattedData = `CODE GREEN - ${institution} - ${description.toUpperCase()} - ${name} - Study Age is 1 hour, 30 minutes`;
 
-    var futureTime = new Date(datetime.getTime() + (1 * 60 + 30) * 60 * 1000).toLocaleString();
+    var futureTime = new Date(datetime.getTime() + (1 * 60 + 15) * 60 * 1000).toLocaleString();
 
     var outputDiv = document.getElementById('output');
     var newRow = document.createElement('div');
